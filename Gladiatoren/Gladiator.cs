@@ -5,7 +5,7 @@ namespace Gladiatoren
 {
     class Gladiator
     {
-        //
+        // gdgdgdgf
         Random rand = new Random();
         string gladName;
         int gladLevel;
