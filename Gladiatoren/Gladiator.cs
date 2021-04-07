@@ -5,6 +5,7 @@ namespace Gladiatoren
 {
     class Gladiator
     {
+        // Neue Kommentar
         Random rand = new Random();
         string gladName;
         int gladLevel;
@@ -36,6 +37,12 @@ namespace Gladiatoren
             {
                 case "Feuer":
                     gladAngriffe.Add(new Angriff("Feuersturm", 50));
+                    gladAngriffe.Add(new Angriff("Flammenball", 30));
+                    gladAngriffe.Add(new Angriff("Brennklinge", 20));
+                    gladAngriffe.Add(new Angriff("Hitze", 10));
+                    break;
+             case "Holz":
+                    gladAngriffe.Add(new Angriff("Schleuder", 60));
                     gladAngriffe.Add(new Angriff("Flammenball", 30));
                     gladAngriffe.Add(new Angriff("Brennklinge", 20));
                     gladAngriffe.Add(new Angriff("Hitze", 10));
